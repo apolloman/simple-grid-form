@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Grid Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container header">
+        <h1 class="company-name"><span>Web</span> Enterprise</h1>
+        <div class="main animated fadeInUp">
+            <div class="company-info">
+                <h3 class="header">Web Enterprise</h3>
+                <ul>
+                    <li>Email: <span>some@gmail.com</span> <i class="fa fa-envelope-open-o" style="font-size:20px"></i></li>
+                    <li>Phone: <span>+1 500 700 60 50 40</span><i class="fa fa-phone" style="font-size:20px"></i></li>
+                    <li>Address: <span>street 45</span> <i class="fa fa-map-signs" style="font-size:20px"></i></li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h3>Write Email</h3>
+                <form action="#">
+                    <p>
+                        <label>Name</label>
+                        <input type="text" name="name" placeholder="Your name" required>
+                    </p>
+                    <p>
+                        <label>Company</label>
+                        <input type="text" name="company" placeholder="Company name" required>
+                    </p>
+                    <p>
+                        <label>Email</label>
+                        <input type="email" name="email" placeholder="Email" required>
+                    </p>
+                    <p>
+                        <label>Phone</label>
+                        <input type="text" name="phone" placeholder="Phone Number">
+                    </p>
+                    <p class="vertical">
+                        <label>Message</label>
+                        <textarea name="message" rows="5"></textarea>
+                    </p>
+                    <p class="vertical">
+                        <button type="Submit">Submit</button>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
